@@ -8,8 +8,15 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  
-   /* fetch("https://rickandmortyapi.com/api")
+  const personajesrym = [
+  {name:"fleeb", image:"https://rickandmortyapi.com/api/character/avatar/126.jpeg"},
+  {name:"Frank Palicky", image:"https://rickandmortyapi.com/api/character/avatar/127.jpeg"},
+  {name:"Frankenstein's Monster", image:"https://rickandmortyapi.com/api/character/avatar/128.jpeg"}
+]
+
+
+
+   /* fetch("data.json")
     .then(response => console.log("Se cumplió:" + response))
     .catch(reason => console.log("No se cumplió:" + reason))*/
   
@@ -25,8 +32,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
        
-      <Card imagen="https://rickandmortyapi.com/api/character/avatar/126.jpeg"
-      name="Fleeb"></Card>
+    <div id="divimagen">
+      {personajesrym.map (element => 
+      <Card name={element.name} imagen={element.image}></Card>)}
+    </div>
 
       </main>
     </>
