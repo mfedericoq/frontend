@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Card from '@/componentes/card.js'
+import Card from '@/componentes/Card.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
