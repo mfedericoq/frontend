@@ -1,8 +1,10 @@
+
 #divimagen {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 15px;
 }
 
 #divimagen2 {
@@ -13,4 +15,10 @@
 
 body {
   background-color:rgba(0, 7, 96, 0.816);
+}
+
+#clockstyle {
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
 }
