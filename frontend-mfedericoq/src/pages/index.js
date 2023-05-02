@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   const personajesrym = [
-  {id:"126", name:"fleeb", image:"https://rickandmortyapi.com/api/character/avatar/126.jpeg"},
-  {id:"127", name:"Frank Palicky", image:"https://rickandmortyapi.com/api/character/avatar/127.jpeg"},
-  {id:"128", name:"Frankenstein's Monster", image:"https://rickandmortyapi.com/api/character/avatar/128.jpeg"}
+  {name:"fleeb", image:"https://rickandmortyapi.com/api/character/avatar/126.jpeg"},
+  {name:"Frank Palicky", image:"https://rickandmortyapi.com/api/character/avatar/127.jpeg"},
+  {name:"Frankenstein's Monster", image:"https://rickandmortyapi.com/api/character/avatar/128.jpeg"}
 ]
 
 
